@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		181F974E266284C9008DD000 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F974D266284C9008DD000 /* Episode.swift */; };
 		1846CEE52663D7EF00AE8F10 /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CEE42663D7EF00AE8F10 /* CustomTabSwitcher.swift */; };
+		1846CEE92663E2CC00AE8F10 /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CEE82663E2CC00AE8F10 /* MoreLikeThis.swift */; };
 		188604C9266141320004E002 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188604C8266141320004E002 /* MovieDetail.swift */; };
 		189F4B24265E963A00EA49AF /* BuildNetflixCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F4B23265E963A00EA49AF /* BuildNetflixCloneApp.swift */; };
 		189F4B26265E963A00EA49AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F4B25265E963A00EA49AF /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		181F974D266284C9008DD000 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		1846CEE42663D7EF00AE8F10 /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
+		1846CEE82663E2CC00AE8F10 /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
 		188604C8266141320004E002 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		189F4B20265E963A00EA49AF /* BuildNetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildNetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F4B23265E963A00EA49AF /* BuildNetflixCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflixCloneApp.swift; sourceTree = "<group>"; };
@@ -57,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1846CEE72663E29B00AE8F10 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				188604C8266141320004E002 /* MovieDetail.swift */,
+				1846CEE42663D7EF00AE8F10 /* CustomTabSwitcher.swift */,
+				1846CEE82663E2CC00AE8F10 /* MoreLikeThis.swift */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
 		188604C1266140BD0004E002 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +134,7 @@
 				188604C2266140D40004E002 /* HelperViews */,
 				188604C4266140E20004E002 /* Model */,
 				188604C6266140EB0004E002 /* Helpers */,
-				188604C8266141320004E002 /* MovieDetail.swift */,
-				1846CEE42663D7EF00AE8F10 /* CustomTabSwitcher.swift */,
+				1846CEE72663E29B00AE8F10 /* MovieDetail */,
 			);
 			path = BuildNetflixClone;
 			sourceTree = "<group>";
@@ -220,6 +231,7 @@
 				18E4DFFC265FE1B300319C52 /* TopMoviePreview.swift in Sources */,
 				189F4B3B265E985900EA49AF /* Movie.swift in Sources */,
 				189F4B24265E963A00EA49AF /* BuildNetflixCloneApp.swift in Sources */,
+				1846CEE92663E2CC00AE8F10 /* MoreLikeThis.swift in Sources */,
 				1846CEE52663D7EF00AE8F10 /* CustomTabSwitcher.swift in Sources */,
 				18E4DFFF265FEC2500319C52 /* SmallVerticalButton.swift in Sources */,
 				18E4E002265FF1F100319C52 /* PlayButton.swift in Sources */,
